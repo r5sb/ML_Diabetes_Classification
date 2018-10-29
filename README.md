@@ -1,2 +1,5 @@
 # ML_Diabetes_Classification
-Diabetes Classification using the Pima Indians Diabetes Dataset
+Diabetes Classification on the Pima Indians Diabetes Dataset using:
+
+1. LinearClassifier
+2. DNNClassifier
