@@ -89,12 +89,6 @@ def train():
 	model_test_acc = get_acc(final_preds,y_test)
 
 	print ("Test acc is %.2f" %(model_test_acc))
-
-	count=0
-	for v in range(len(y_test)):
-	if final_preds[v]==y_test[v]:
-	    count+=1
-	print ("Test acc is %.2f" %(count/len(y_test))
   
 if __name__ == '__main__':
 
